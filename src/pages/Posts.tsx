@@ -128,6 +128,7 @@ const Posts = () => {
 
     }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const deletePost = async (postId: number) => {

@@ -62,6 +62,7 @@ const UserBlog: React.FC = () => {
         }
         getUserId()
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     console.log(userPost)
